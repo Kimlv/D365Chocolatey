@@ -1,0 +1,10 @@
+$packageId = "Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf.JL"
+
+$directory = $PSScriptRoot
+$url = Join-Path $directory "..\ToolPackage.zip"
+$destination = "$([Environment]::GetFolderPath('ApplicationData'))\D365ChocoTools\Microsoft\$packageId"
+
+Get-ChocolateyUnzip -FileFullPath $url -Destination $destination
+
+# Installs a desktop shortcut to Configuration Migration Tool folder
+Install-ChocolateyShortcut -ShortcutFilePath "$([Environment]::GetFolderPath('Desktop'))\SDK Configuration Migration Tool.lnk" -TargetPath "$destination\tools" -RunAsAdmin

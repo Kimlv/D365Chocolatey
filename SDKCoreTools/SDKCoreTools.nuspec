@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.CrmSdk.CoreTools.JL</id>
+    <title>Microsoft Dynamics 365 SDK core tools</title>
+    <version>9.0.2.11</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <summary>Tools required to develop managed code applications and solutions for Dynamics 365 (online and on-premises).</summary>
+    <description>This package contains the official SDK tools authored by the Microsoft Dynamics 365 team.
+The included command line tools are installed in the project's bin\coretools folder.</description>
+    <projectUrl>https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-guide</projectUrl>
+    <tags>Dynamics CRM 2016 SDK XRM D365 Dynamics365 365</tags>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <licenseUrl>http://download.microsoft.com/download/E/1/8/E18C0FAD-FEC8-44CD-9A16-98EDC4DAC7A2/LicenseTerms.docx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://secure.gravatar.com/avatar/08cb1de15b201ab761820bed22b61cb0?s=128</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="*.zip" target="\" />
+  </files>
+</package>
