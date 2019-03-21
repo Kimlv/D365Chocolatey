@@ -28,7 +28,7 @@ Using Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool as an example.
 2. Rename files for the new package
 3. Update the .nuspec file with information regarding the package you are creating
 4. Update the .ps1 file and replace Variables in #1 & path names in #2 and #3
-5. Update the .ps1 file based on the type of application being packaged, see the [Chocolaty Docs](https://chocolatey.org/docs#packages) for more info
+5. Update the .ps1 file based on the type of application being packaged, see the [Chocolatey Docs](https://chocolatey.org/docs#packages) for more info
 6. Update README.md
 7. Update chocolateyInstall.ps1 and perform operations to install the application
 8. Update chocolateyUninstall.ps1 and perform operations to uninstall the application - reverse whatever was done if possible
